@@ -32,9 +32,7 @@ namespace Windows
 
 		private void OnScaleClick()
 		{
-			var scale = Vector3.one * (_isClicked ? 1f : 0.5f); 
-			_isClicked = !_isClicked;
-			_view.transform.DOScale(scale, 1f);
+			_windowsController.Window<ResultsWindowsPresenter>().Open();
 		}
 
 		private void OnLeftClick()

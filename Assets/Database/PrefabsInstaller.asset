@@ -18,5 +18,13 @@ MonoBehaviour:
     type: 3}
   _rightWindowView: {fileID: 5286682585092248771, guid: 3a961e82c1edcf74eb2418cdb1071864,
     type: 3}
+  _resultsWindowsView: {fileID: 429591765075562475, guid: 149998f3bfe464441b2212599c15d59b,
+    type: 3}
+  _statisticWindowView: {fileID: 5331831583594226014, guid: c726b100a2a5ef943b6f26217c3b7c21,
+    type: 3}
+  _inputWindowView: {fileID: 5020623688863733078, guid: 8d3226043ffe12048914120fc995ddbb,
+    type: 3}
+  _propsWindowView: {fileID: 1982726206376488386, guid: ef463f8b8a44f5241917020e25f47cac,
+    type: 3}
   _canvasProvider: {fileID: 3519925332404821374, guid: f9188d980a0175b428aef8655cf33ef1,
     type: 3}

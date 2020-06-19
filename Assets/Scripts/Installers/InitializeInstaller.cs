@@ -17,6 +17,10 @@ public class InitializeInstaller : MonoInstaller
     private void BindWindows()
     {
         Container.Bind<MainWindowPresenter>().AsSingle();
+        Container.Bind<ResultsWindowsPresenter>().AsSingle();
+        Container.Bind<StatisticWindowPresenter>().AsSingle();
+        Container.Bind<InputWindowPresenter>().AsSingle();
+        Container.Bind<PropsWindowPresenter>().AsSingle();
         Container.Bind<LeftWindowPresenter>().AsSingle();
         Container.Bind<RightWindowPresenter>().AsSingle();
     }
